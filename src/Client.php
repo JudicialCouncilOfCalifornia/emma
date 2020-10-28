@@ -417,16 +417,20 @@ class Client
      * @param  boolean $show_deleted Set to 1 so see deleted group members, 0 to ignore deleted members
      * @return string|array API request results
      **/
-    function list_group_members($group_id, $show_deleted = null)
+    function list_group_members($group_id, $show_deleted = null, $start = 0, $end = 500)
     {
-
+        $pagination = '';
         if ($show_deleted) {
             $send_data['deleted'] = 1;
         } else {
             $send_data['deleted'] = 0;
         }
+        if($start != 0){
+            $end = $start + 500;
+            $pagination = '?start=' . $start . '&end=' . $end;
+        }
 
-        $data = $this->make_request('groups/'.$group_id.'/members', 'GET', $send_data['deleted']);
+        $data = $this->make_request('groups/'.$group_id.'/members'. $pagination, 'GET', $send_data['deleted']);
         return $data;
     }
 
