@@ -1,6 +1,6 @@
 <?php
 
-namespace MarkRoland\Emma;
+namespace JudicialCouncil\Emma;
 
 use Exception;
 
