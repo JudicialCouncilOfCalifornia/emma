@@ -1,10 +1,10 @@
 {
-    "name": "markroland/emma",
+    "name": "judicialcouncil/emma",
     "description": "A PHP Wrapper for the Emma API",
     "keywords": [
         "Emma"
     ],
-    "homepage": "https://github.com/markroland/emma",
+    "homepage": "https://github.com/udicialCouncilOfCalifornia/emma",
     "authors": [
         {
             "name": "Mark Roland",
