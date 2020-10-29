@@ -14,7 +14,7 @@ use Exception;
  *
  * Documentation: http://api.myemma.com/
  **/
-class Client
+class JccClient
 {
     /**
      * Emma API Dommain
