@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MarkRoland\\Emma\\": "src/"
+            "JudicialCouncil\\Emma\\": "src/"
         }
     },
     "autoload-dev": {
