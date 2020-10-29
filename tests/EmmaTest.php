@@ -1,8 +1,8 @@
 <?php
 
-namespace MarkRoland\Emma\Tests;
+namespace JudicialCouncil\Emma\JccTests;
 
-use MarkRoland\Emma\Client;
+use JudicialCouncil\Emma\JccClient;
 use PHPUnit_Framework_TestCase;
 
 class EmmaTest extends PHPUnit_Framework_TestCase

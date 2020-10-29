@@ -4,7 +4,7 @@
 require dirname(__DIR__).'/vendor/autoload.php';
 
 // Create new Emma class object
-$client = new MarkRoland\Emma\Client('1234567', 'Drivorj7QueckLeuk', 'WoghtepheecijnibV');
+$client = new JudicialCouncil\Emma\JccClient('1234567', 'Drivorj7QueckLeuk', 'WoghtepheecijnibV');
 
 // Control Debugging output
 $client->debug = true;
